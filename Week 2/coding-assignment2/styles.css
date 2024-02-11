@@ -1,0 +1,57 @@
+/*Sets webpage color and default font style*/
+html {
+    background-color: rgb(220, 195, 163);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*changes font and font size for web headers, sets flex wrap to wrap
+alligns text to center and sets a custom margin*/
+.web-header {
+    font-family: 'Honk', system-ui;
+    font-size: 75px;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto 45px;
+}
+
+.nav-bar {
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto 45px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto 45px;
+}
+
+.img-div {
+    display: flex;
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+p {
+    text-align: center;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    width: 75%;
+    height: 2px;
+}
+
+footer {
+    opacity: 0.5;
+}
